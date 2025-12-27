@@ -15,7 +15,7 @@ import back from "./assets/gif/eva01.mp4"
 import StickyNote from "./components/StickyNote";
 import useRetroSounds from "./utils/sounds"
 import ayanamirei from "./assets/gif/ayanami-rei.gif"
-import night from "./assets/gif/night-bg.jpg"
+import night from "./assets/gif/night-bg.png"
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Study from "./pages/Study";

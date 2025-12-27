@@ -19,7 +19,7 @@ export default function BootLoader({ onFinish }) {
     <div className="fixed inset-0 bg-black flex items-center justify-center text-rose-300 text-sm sm:text-lg font-mono">
       <div className="flex flex-col items-center gap-4">
         <img src={rabbitGif} alt="Booting..." className="w-full h-32 sm:h-44" />
-        <p>Hop on to my portfolio...</p>
+        <p>Initiating synchronization…</p>
       </div>
     </div>
   );
