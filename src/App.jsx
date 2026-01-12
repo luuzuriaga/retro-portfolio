@@ -11,7 +11,7 @@ import ArtIcon from "./assets/desktopIcons/art.png";
 import SkillIcon from "./assets/desktopIcons/skills.png";
 import MailIcon from "./assets/desktopIcons/mail.png";
 import GameIcon from "./assets/desktopIcons/games.png";
-import back from "./assets/gif/desktop-bg.gif";
+import back from "./assets/gif/desktop-bg.png"
 import StickyNote from "./components/StickyNote";
 import useRetroSounds from "./utils/sounds"
 import ayanamirei from "./assets/gif/ayanami-rei.gif"
@@ -50,7 +50,7 @@ export default function App() {
       {booted && (
         <div className="h-screen cursor w-screen overflow-hidden relative">
           {/* <CustomCursor/> */}
-          <video src={back} className="h-full w-full object-cover fixed top-0" autoPlay loop muted></video>
+          <img src={back} alt="background" className="h-full w-full object-cover fixed top-0" />
            {theme == "night" && <img src={night} className="h-full w-full object-cover fixed top-0"></img>
           //  <div className="h-screen w-screen bg-gradient-to-r from-black/60 via-blue-900/20 to-black/60  absolute top-0">
           }
