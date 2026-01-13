@@ -11,7 +11,7 @@ import ArtIcon from "./assets/desktopIcons/art.png";
 import SkillIcon from "./assets/desktopIcons/skills.png";
 import MailIcon from "./assets/desktopIcons/mail.png";
 import GameIcon from "./assets/desktopIcons/games.png";
-import back from "./assets/gif/desktop-bg.png"
+import back from "./assets/gif/desktop-bg2.jpg"
 import StickyNote from "./components/StickyNote";
 import useRetroSounds from "./utils/sounds"
 import ayanamirei from "./assets/gif/ayanami-rei.gif"
